@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    
+}
+.container{
+    background: linear-gradient( to bottom right,
+          #10adb2,
+          #8316f0
+    );
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    mix-blend-mode: multiply;
+    position: absolute;
+    margin: 20px 0 20px 20px;
+}
+.navlist {
+    display: flex;
+    gap: 2rem;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    
+}
+.navlist li{
+    list-style: none;
+    margin: 0 20px 0 0;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    box-shadow: 5px  5px 2px #888;  
+}
+a:hover{
+    color: rgb(20, 20, 84);
+}
+.intro{
+    margin:15rem 0 5rem 10rem;
+    position: absolute;
+    width: 50%;
+    gap: 1rem;
+}
+.photo{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    margin: 10rem 20px 0 40rem ;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+}
+
+.intro h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.intro h3{
+    color: blue;
+    font-size: 1.5rem;
+    gap:1rem;
+}
+.intro p{
+    color: #fff;
+    font-size:1rem ;
+}
+.intro h1 span{
+    color: #1e0339;
+}
+.background{
+    background: #8316f0;
+    height: 100vh;
+    width: 100%;   
+}
+.background h1{
+    color: blue;
+    font-size: 3rem;
+    display: flex;
+    margin: 0 0 0 2rem;
+}
+.background p{
+    font-size: 1rem;
+    color: #fff;
+    margin: 1rem 0 0 2rem;
+    line-height: 1.8rem;
+    max-width: 38rem;
+}
+.project{
+    background: #8316f0;
+    height: 100vh;
+    width: 100%;
+}
+.project h1{
+    color: blue;
+    font-size: 3rem;
+    display: flex;
+    margin: 0 0 0 2rem;
+}
+.project h4{
+    color: rgb(51, 5, 66);
+    font-size: 2rem;
+    display: flex;
+    margin: 0 0 0 2rem;
+}
+.project p{
+    font-size: 1rem;
+    color: #fff;
+    margin: 1rem 0 0 2rem;
+    line-height: 1.8rem;
+    max-width: 38rem;
+}
+.skill{
+    background: #8316f0;
+    height: 100vh;
+    width: 100%;
+}
+.skill h1{
+    color: blue;
+    font-size: 3rem;
+    display: flex;
+    margin: 0 0 0 2rem;
+}
+.skill p{
+    font-size: 1rem;
+    color: #fff;
+    margin: 1rem 0 0 2rem;
+    line-height: 1.8rem;
+    max-width: 38rem;
+}
+.skill ul li{
+    font-size: 1rem;
+    color: #fff;
+    margin: 1rem 0 0 2rem;
+    line-height: 1.8rem;
+    max-width: 38rem;
+}
+.experience{
+    background: #8316f0;
+    height: 100vh;
+    width: 100%;
+}
+.experience h1{
+    color: blue;
+    font-size: 3rem;
+    display: flex;
+    margin: 0 0 0 2rem;
+}
+.experience ul li{
+    font-size: 1rem;
+    color: #fff;
+    margin: 1rem 0 0 2rem;
+    line-height: 1.8rem;
+    max-width: 38rem;
+}
+.ach{
+    background: #8316f0;
+    height: 100vh;
+    width: 100%;
+}
+.ach h1{
+    color: blue;
+    font-size: 3rem;
+    display: flex;
+    margin: 0 0 0 2rem;
+}
+.ach p{
+    font-size: 1rem;
+    color: #fff;
+    margin: 1rem 0 0 2rem;
+    line-height: 1.8rem;
+    max-width: 38rem;
+}
+body{
+    font-family:  'Arial', sans-serif;
+    background-color: #fff(240, 249, 255);
+    color: #0c0c0c;
+    line-height: 1.6;
+}
+.contact{
+    background: #8316f0;
+    padding: 50px, 20px;
+    text-align: center;
+}
+.contact h1{
+    color: #341aa9;
+    font-size: 3rem;
+    display: flex;
+    margin: 0 0 50px 0;
+    font-weight: 600;
+    justify-content: center;
+    
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+} */
+.contactinfo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+
+}
+.contactinfo.box{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(17, 13, 13);
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:column ;
+    transition: transform 0.3s;
+    text-align: center;
+    gap: 2rem;
+}
+.contactinfo.box:hover{
+    transform: scale(1.05);
+}
+.icon{
+    font-size: 40px;
+    color: #fff;
+    margin: 0 0 40px 0;
+    display: inline-block;
+}
+
+.box.icon,
+.box.text{
+    display: inline-block;
+    align-items: center;
+}
+.text h3{
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 5px 0;
+}
+.text p{
+    font-size: 16px;
+    color: #fff;
+}
+
+/* @media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactinfo{
+        flex-direction: column;
+        gap: 20px;
+    }
+} */
